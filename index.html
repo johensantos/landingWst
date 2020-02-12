@@ -9,53 +9,295 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/7a2abb6de2.js" crossorigin="anonymous"></script>
+    <title>Work Safety Tech</title>
     <link rel="stylesheet" href="library/css/bootstrap.min.css">
     <style>
-        #banner {
-            background: url(img/bannerLanding.png) no-repeat right center;
-            background-size: cover;
+
+
+        html {
+            scroll-behavior: smooth;
+            --scrollbarBG: #CFD8DC;
+            --thumbBG: #eb5b25;
+        }
+
+        body::-webkit-scrollbar {
+            width: 11px;
+        }
+
+        body {
+            scrollbar-width: thin;
+            scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        }
+
+        body::-webkit-scrollbar-track {
+            background: var(--scrollbarBG);
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: var(--thumbBG);
+            border-radius: 6px;
+            border: 3px solid var(--scrollbarBG);
         }
 
 
+        /*  // Extra small devices (portrait phones, less than 576px)*/
+        @media (max-width: 575.98px) {
+            #banner {
+                background: url(img/bannerLanding.png) no-repeat center center;
+                background-size: cover;
+                height: 200px
+            }
+
+            .divider-vertical-second-menu {
+                display: none;
+            }
+
+            .itemsMenu {
+                text-align: center;
+                background-color: white;
+                border-bottom: 6px double #17a2b8;
+            }
+
+            .itemsMenu .nav-item a.nav-link {
+                color: var(--thumbBG) !important;
+            }
+        }
+
+        /* // Small devices (landscape phones, 576px and up)*/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            #banner {
+                background: url(img/bannerLanding.png) no-repeat center center;
+                background-size: cover;
+                height: 500px
+            }
+
+            .divider-vertical-second-menu {
+                display: none;
+            }
+
+            .itemsMenu {
+                text-align: center;
+                background-color: white;
+                border-bottom: 6px double #17a2b8;
+            }
+
+            .itemsMenu .nav-item a.nav-link {
+                color: var(--thumbBG) !important;
+            }
+        }
+
+        /*// Medium devices (tablets, 768px and up)*/
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            #banner {
+                background: url(img/bannerLanding.png) no-repeat center center;
+                background-size: cover;
+                height: 600px
+            }
+
+            .divider-vertical-second-menu {
+                display: none;
+            }
+
+            .itemsMenu {
+                text-align: center;
+                background-color: white;
+                border-bottom: 6px double #17a2b8;
+            }
+
+            .itemsMenu .nav-item a.nav-link {
+                color: var(--thumbBG) !important;
+            }
+        }
+
+        /*// Large devices (desktops, 992px and up)*/
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            #banner {
+                background: url(img/bannerLanding.png) no-repeat center center;
+                background-size: cover;
+                height: 800px
+            }
+        }
+
+        /*  // Extra large devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) {
+            #banner {
+                background: url(img/bannerLanding.png) no-repeat center center;
+                background-size: cover;
+                height: 800px
+            }
+        }
+
+        .divider-vertical-second-menu {
+            height: 40px;
+            width: 1px;
+            margin: 0 5px;
+            overflow: hidden;
+            background-color: #DDD;
+            border-right: 2px solid #FFF;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+        }
+
+        .navbar-toggler {
+            border-color: rgb(255, 255, 255) !important;
+        }
+
+        .colorBarraNavegacion {
+            background-color: var(--thumbBG) !important;
+        }
     </style>
 </head>
 <body>
-<header id="banner"style="height: 100vh; ">
+<header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="barraNavegacion"
+         style="transition: all 0.5s ease-in;">
+        <div class="container-fluid">
+            <a class="navbar-brand bg-white" href="#" style="border: 10px solid white;">
+                <img class="" style="width: 100px; " src="img/logo_wst.png" alt="">
 
-        <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            </a>
+            <a class="btn   text-white" style="border: 1px solid white">
+                Ingresar
+
+            </a><a class="btn btn-info text-white" >
+            <i class="fas fa-globe-americas"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav ml-auto itemsMenu ">
+                    <li class="nav-item active">
+                        <a style="font-size: 1.1em" class="nav-link text-white  active" href="#quienesSomos">Quienes
+                            Somos</a>
+                    </li>
+                    <li class="divider-vertical-second-menu sm"></li>
+                    <li class="nav-item">
+                        <a style="font-size: 1.1em" class="nav-link text-white" href="#">Nuestros Cursos</a>
+                    </li>
+                    <li class="divider-vertical-second-menu sm"></li>
+                    <li class="nav-item">
+                        <a style="font-size: 1.1em" class="nav-link text-white" href="#">Nuestros Clientes</a>
+                    </li>
+                    <li class="divider-vertical-second-menu sm"></li>
+                    <li class="nav-item">
+                        <a style="font-size: 1.1em" class="nav-link text-white" href="#">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="divider-vertical-second-menu sm"></li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a style="font-size: 1.1em"
+                               class="btn btn-lg   btn-info text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                               href="#">
+                                Ingresa
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
         </div>
     </nav>
-
+    <div class="row px-0 mx-0" id="banner" style="">
+        <div class="col-12 row px-0 mx-0">
+        </div>
+    </div>
 </header>
+<div class="container">
+    <main id="quienesSomos">
+        <div class="row">
+            <div class="col">
+                <h1>Bienvenidos</h1>
+                <hr>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit incidunt iure nulla
+                    provident quis, rem tenetur. Beatae debitis deleniti dolorum ducimus eos id ipsum nihil numquam
+                    saepe similique! Veniam!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium animi atque
+                    blanditiis, consequatur cupiditate deserunt dicta eius explicabo impedit laborum laudantium non
+                    obcaecati praesentium provident quis repudiandae soluta velit.
+                </p>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="row">
+            <div class="col-6 text-center p-2 p-sm-4 p-md-4 p-lg-5 p-xl-5">
+                <img class="img-fluid" src="img/icono-wst.png" alt="">
+                <a style="font-size: 1.3em;background-color: #eb5b25"
+                   class="btn btn-lg  btn-block btn-outline-primary text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                   href="#">
+                    Ingresa
+                </a>
+            </div>
+            <div class="col-6 text-center p-2 p-sm-4 p-md-4 p-lg-5 p-xl-5">
+                <img class="img-fluid" src="img/worker-min.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row" style="height: 100px">
+            <div class="col">
+                <h2 class="text-center">Nuestros Cursos</h2>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row" style="height: 100px">
+            <div class="col">
+                <h2 class="text-center">Preguntas Frecuentes</h2>
+            </div>
+        </div>
+    </section>
+
+</div>
+<!-- Footer -->
+<div class="row p-0 m-0" id="footerHeading">
+    <div class="col px-0 px-md-3 px-lg-5 px-xl-5 py-0 m-0 text-center">
+        <img class="img-fluid w-50 " src="img/obreros-min.png" alt="">
+
+    </div>
+</div>
+<footer id="footer" style="height: 200px; background-color: #eb5b25">
+
+</footer>
 
 
 <script src="library/js/jquery.slim.min.js"></script>
 <script src="library/js/popper.min.js"></script>
 <script src="library/js/bootstrap.min.js"></script>
+<script>
+    let pageHeight = 150;
+
+    $(window).scroll(function () {
+        if ($("#barraNavegacion").offset().top > pageHeight) {
+            console.log(pageHeight);
+
+            $("#barraNavegacion").removeClass("bg-transparent");
+            $("#barraNavegacion").removeClass("navbar-dark");
+
+            $("#barraNavegacion").addClass("colorBarraNavegacion");
+            $("#barraNavegacion").addClass("navbar-dark");
+
+        } else {
+
+            $("#barraNavegacion").addClass("bg-transparent");
+            $("#barraNavegacion").addClass("navbar-dark");
+            $("#barraNavegacion").removeClass("colorBarraNavegacion");
+
+        }
+    });
+
+</script>
 </body>
 </html>
