@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79e5631-b2d7-42d3-b1a7-6dd797dbccf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/basicCourseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/carpentryIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/paintIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/trim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/js/wow.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -52,7 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/library/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -95,7 +89,8 @@
       <updated>1581458601983</updated>
       <workItem from="1581458603332" duration="3878000" />
       <workItem from="1581516478730" duration="22792000" />
-      <workItem from="1581602826360" duration="12047000" />
+      <workItem from="1581602826360" duration="12659000" />
+      <workItem from="1581634322235" duration="1457000" />
     </task>
     <servers />
   </component>
