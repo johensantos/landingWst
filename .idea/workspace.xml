@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79e5631-b2d7-42d3-b1a7-6dd797dbccf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/icono-wst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_wst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/obreros-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/worker-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/basicCourseIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/carpentryIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/paintIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/trim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/js/wow.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bannerLanding.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bannerLanding.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,22 +52,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp1\htdocs\landingWst\library\js" />
+      <recent name="C:\xampp1\htdocs\landingWst\library\css" />
+      <recent name="C:\xampp1\htdocs\landingWst\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp1\htdocs\landingWst\library\css" />
       <recent name="C:\xampp1\htdocs\landingWst\library\js" />
       <recent name="C:\xampp1\htdocs\landingWst\library" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp1\htdocs\landingWst\img" />
-      <recent name="C:\xampp1\htdocs\landingWst\library\css" />
-      <recent name="C:\xampp1\htdocs\landingWst\library\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,6 +82,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="C:\Program Files\JetBrains\PhpStorm 2019.2.3\plugins\spanish-spell" CustomDictionaries="1" CustomDictionary0="C:\Program Files\JetBrains\PhpStorm 2019.2.3\plugins\spanish-spell\spanish.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -93,6 +95,7 @@
       <updated>1581458601983</updated>
       <workItem from="1581458603332" duration="3878000" />
       <workItem from="1581516478730" duration="22792000" />
+      <workItem from="1581602826360" duration="12047000" />
     </task>
     <servers />
   </component>
