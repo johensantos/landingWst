@@ -216,8 +216,8 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Español</a>
-                    <a class="dropdown-item" href="#">Ingles</a>
+                    <a class="dropdown-item" href="indexEs.php">Español</a>
+                    <a class="dropdown-item" href="index.php">Ingles</a>
                 </div>
             </div>
 
@@ -262,16 +262,10 @@
                                 <i class="fas fa-globe-americas"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Español</a>
-                                <a class="dropdown-item" href="#">Ingles</a>
+                                <a class="dropdown-item" href="indexEs.php">Español</a>
+                                <a class="dropdown-item" href="index.php">Ingles</a>
                             </div>
                         </div>
-
-
-
-
-
-
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">

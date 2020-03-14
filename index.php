@@ -222,8 +222,8 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Español</a>
-                    <a class="dropdown-item" href="#">Ingles</a>
+                    <a class="dropdown-item" href="indexEs.php">Español</a>
+                    <a class="dropdown-item" href="index.php">Ingles</a>
                 </div>
             </div>
 
@@ -234,7 +234,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav ml-auto itemsMenu ">
+                <ul class="navbar-nav mr-auto itemsMenu ">
                     <li class="nav-item active">
                         <a style="font-size: 1.1em" class="nav-link text-white  active" href="#quienesSomos">About Us</a>
                     </li>
@@ -250,12 +250,10 @@
                     <li class="nav-item">
                         <a style="font-size: 1.1em" class="nav-link text-white" href="#preguntasFrecuentes">Frequent Questions</a>
                     </li>
-
                     <li class="divider-vertical-second-menu sm"></li>
-
-
+                </ul>
+                <ul class="navbar-nav ml-auto itemsMenu">
                     <li class="nav-item">
-
                         <div class="dropdown">
                             <a style="font-size: 1.1em"
                                class=" quitarEnMovil dropdown-toggle btn btn-lg mx-2  btn-warning text-white"
@@ -263,12 +261,10 @@
                                 <i class="fas fa-globe-americas"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Español</a>
-                                <a class="dropdown-item" href="#">Ingles</a>
+                                <a class="dropdown-item" href="indexEs.php">Español</a>
+                                <a class="dropdown-item" href="index.php">Ingles</a>
                             </div>
                         </div>
-
-
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
@@ -279,7 +275,9 @@
                             </a>
                         </div>
                     </li>
+
                 </ul>
+
 
             </div>
 

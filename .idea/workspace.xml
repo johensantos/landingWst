@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79e5631-b2d7-42d3-b1a7-6dd797dbccf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/NUEVO/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/NUEVO/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/NUEVO/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/NUEVO/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/NUEVO/banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/NUEVO/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/NUEVO/banner-3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexEs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexEs.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexEs.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,22 +54,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utils/NUEVO" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp1\htdocs\landingWst\library\js" />
-      <recent name="C:\xampp1\htdocs\landingWst\library\css" />
-      <recent name="C:\xampp1\htdocs\landingWst\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp1\htdocs\landingWst\library\css" />
       <recent name="C:\xampp1\htdocs\landingWst\library\js" />
       <recent name="C:\xampp1\htdocs\landingWst\library" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp1\htdocs\landingWst\utils\NUEVO" />
+      <recent name="C:\xampp1\htdocs\landingWst\library\js" />
+      <recent name="C:\xampp1\htdocs\landingWst\library\css" />
+      <recent name="C:\xampp1\htdocs\landingWst\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,6 +101,8 @@
       <workItem from="1581602826360" duration="12659000" />
       <workItem from="1581634322235" duration="1694000" />
       <workItem from="1581712899838" duration="1945000" />
+      <workItem from="1584209777930" duration="2005000" />
+      <workItem from="1584217384414" duration="1111000" />
     </task>
     <servers />
   </component>
