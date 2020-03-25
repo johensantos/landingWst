@@ -1,0 +1,782 @@
+<!--
+ - Created by PhpStorm.
+ - Developer: Johen Guevara Santos.
+ - Email: mguevara@enfocussoluciones.com
+ - Date: 11/02/2020
+ - Time: 17:03
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/7a2abb6de2.js" crossorigin="anonymous"></script>
+    <title>Work Safety Tech</title>
+    <link rel="stylesheet" href="library/css/bootstrap.min.css">
+    <link rel="stylesheet" href="library/css/animate.min.css">
+    <link rel="stylesheet" href="library/css/footer.css">
+    <link rel="stylesheet" href="library/css/main.css">
+    <script src="library/js/wow.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <!--
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    -->
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="library/css/slider.css">
+    <style>
+        li{
+            list-style: none;
+        }
+        .vineta li:before {
+            content: '\f00c';
+            font-family: 'FontAwesome';
+            float: left;
+            margin-left: -1.5em;
+            color: #0074D9;
+        }
+    </style>
+</head>
+<body>
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top animated fadeIn fast" id="barraNavegacion"
+         style="transition: all 0.5s ease-in;">
+        <div class="container-fluid">
+            <a class="navbar-brand bg-white d-sm-block d-xl-block d-none" href="#" style="border: 10px solid white;">
+                <img class="" style="width: 100px; " src="img/logo_wst.png" alt="">
+
+            </a>
+
+            <a class="navbar-brand d-sm-none d-xl-none d-block" href="#" style="">
+                <img class="" style="width: 130px; " src="img/logo-transparent.png" alt="">
+
+            </a>
+            <!-- <a class="btn text-white botonOcultoNavBar " data-toggle="modal" data-target="#exampleModalCenter"
+                style="border: 1px solid white">
+                 Log In
+             </a>-->
+
+            <a class="btn text-white botonOcultoNavBar "
+               href="https://worksafetytech.com/loginCompany.php"
+               style="border: 1px solid white">
+                Log In
+            </a>
+
+            <div class="dropdown">
+                <a class="btn text-white botonOcultoNavBar dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false" style="border: 1px solid white">
+                    <i class="fas fa-globe-americas"></i>
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="indexEs.php">Español</a>
+                    <a class="dropdown-item" href="index.html">English</a>
+                </div>
+            </div>
+
+
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <style>
+
+                .dropdown-submenu {
+                    position: relative;
+                }
+
+                .dropdown-submenu > a:after {
+                    content: "\f0da";
+                    float: right;
+                    border: none;
+                    font-family: 'FontAwesome';
+                }
+
+                .dropdown-submenu > .dropdown-menu {
+                    top: 0;
+                    left: 100%;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                }
+
+
+                @media (min-width: 991px) {
+                    .dropdown-menu {
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                }
+
+            </style>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav mr-auto itemsMenu ">
+
+                    <!--
+                                        <li class="divider-vertical-second-menu sm"></li>
+                    -->
+                    <li class="nav-item dropdown">
+                        <a style="font-size: 1.7em;padding-left: 1.5rem;padding-right: 1.5rem"
+                           class="nav-link dropdown-toggle text-white font-weight-bold"
+                           href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+                            <a class="dropdown-item font-weight-bolder" href="#nuestrosClientes">Basic Safety Course</a>
+                            <div class="dropdown-divider"></div>
+
+                            <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false" class="dropdown-item dropdown-toggle font-weight-bolder">Specialized
+                                courses</a>
+                            <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow-lg w-100">
+                                <li><a href="#painter" class="dropdown-item">Framing</a></li>
+                                <li><a href="#painter" class="dropdown-item">Painter</a></li>
+                                <li><a href="#painter" class="dropdown-item">Electricity</a></li>
+                                <li><a href="#painter" class="dropdown-item">Cleaning</a></li>
+                                <li><a href="#painter" class="dropdown-item">Roofing</a></li>
+                            </ul>
+
+                            <!-- <a class="dropdown-item" href="#">Carpentry</a>
+
+                             <a class="dropdown-item" href="#">Painter</a>
+                             <a class="dropdown-item" href="#">Electricity</a>
+                             <a class="dropdown-item" href="#">Cleaning</a>
+                             <a class="dropdown-item" href="#">Roofing</a>-->
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+
+
+                        <a
+                                style="font-size: 1.7em;padding-left: 1.5rem;padding-right: 1.5rem"
+                                class="font-weight-bold nav-link dropdown-toggle text-white " href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pricing
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <a class="dropdown-item font-weight-bolder" href="curso-basico-de-seguridad.html">Basic
+                                Safety Course</a>
+                            <a class="dropdown-item font-weight-bolder" href="cursos-especializado.html">Specialized
+                                Courses</a>
+
+                        </div>
+
+
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 1.7em;padding-left: 1.5rem;padding-right: 1.5rem"
+                           class="nav-link text-white font-weight-bold" href="#whyWst">
+                            Why WST?
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 1.7em;padding-left: 1.5rem;padding-right: 1.5rem"
+                           class="nav-link text-white font-weight-bold" href="#preguntasFrecuentes">FAQS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 1.7em;padding-left: 1.5rem;padding-right: 1.5rem"
+                           class="nav-link text-white font-weight-bold" href="#footer">
+                            Contact
+                        </a>
+                    </li>
+
+
+                </ul>
+                <ul class="navbar-nav ml-auto itemsMenu">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a style="font-size: 1.1em"
+                               class=" quitarEnMovil dropdown-toggle btn btn-lg mx-2  btn-warning text-white"
+                               data-toggle="dropdown" aria-haspopup="true">
+                                <i class="fas fa-globe-americas"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="indexEs.php">Español</a>
+                                <a class="dropdown-item" href="index.html">English</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <!--<a style="font-size: 1.1em"
+                               class="btn btn-lg  quitarEnMovil  btn-info text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                               data-toggle="modal" data-target="#exampleModalCenter">
+                                Log In
+                            </a>-->
+                            <a style="font-size: 1.1em"
+                               target="_blank"
+                               href="https://worksafetytech.com/loginCompany.php"
+                               class="btn btn-lg  quitarEnMovil  btn-info text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                            >
+                                Log In
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+    </nav>
+    <div class="row px-0 mx-0 animated fadeIn" id="banner" style="">
+        <div class="col-4 row px-0 mx-0">
+
+        </div>
+        <div class="col-4 row px-0 mx-0">
+
+        </div>
+        <div class="col-4 row px-0 mx-0">
+            <div>
+                <img class="img-fluid d-sm-block d-xl-block d-none" style="margin-top: 80px"
+                     src="img/logo-transparent.png" alt="">
+                <h1 class=" merit text-white ml-4 d-sm-block d-xl-block d-none" style="word-spacing: 8px;font-size: 3rem;text-align: center">
+                    OUR PRIORITY IS
+                    YOUR SAFETY</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <main id="quienesSomos">
+        <div class="row wow fadeIn">
+            <!--transform:scaleY(1.3) ;-->
+            <div class="col text-center" id="primerContenido">
+                <h1 style="color: #17a2b8;font-weight: 800" class="animated fadeIn slow merit ">Welcome to Work Safety
+                    Tech</h1>
+                <hr>
+                <h4 class="" style="color:#eb5b25">Your safety at work is our priority</h4>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 text-center">
+                <img style="height: 220px" src="img/frases/iconoFrase1.png" alt="">
+                <h5>
+                    Learn how to avoid accidents
+                </h5>
+                <p class="p-2">
+                    You will learn valuable safety information to protect your workers and in turn they understand the
+                    importance of following the indicated guidelines. </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 text-center">
+                <img style="height: 220px" src="img/frases/iconoFrase2.png" alt="">
+                <h5>Stay informed with the most updated safety information</h5>
+                <p class="p-2">All information is based on OSHA good practices that seek a safe and healthy
+                    workplace.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 text-center">
+                <img style="height: 220px" src="img/frases/iconoFrase3.png" alt="">
+                <h5>Use the right protection on the right moment</h5>
+                <p class="p-2">
+                    We provide you with information about specialized implements and accessories that together with a
+                    correct use will avoid many accidents.
+                </p>
+
+            </div>
+        </div>
+    </main>
+    <section class="wow fadeIn">
+        <div class="row">
+            <div class="col-12 text-center p-2  col-lg-6 col-xl-6 col-md-6 "
+                 style="text-align: left;display: flex; justify-content: center; align-items: center">
+                <!-- <img class="img-fluid" src="img/icono-wst.png" alt="">
+                 <a style="font-size: 1.3em;background-color: #eb5b25"
+                    class="btn btn-lg  btn-block btn-outline-primary text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                    data-toggle="modal" data-target="#exampleModalCenter">
+                     Log In
+                 </a>-->
+                <div>
+                    <h2 class="text-info" style="font-weight: bold;font-size: 44px;font-family: 'Roboto', sans-serif;">
+                        You are your most important tool.
+
+
+                    </h2>
+                    <h2 class="text-info" style="font-weight: bold;font-size: 44px;font-family: 'Roboto', sans-serif;">Be
+                        safe, be protected!
+                    </h2>
+                </div>
+
+            </div>
+            <div class="col-12 text-center p-2 p-sm-12 p-md-12 col-lg-6 col-md-6 p-5">
+                <img class="img-fluid" src="img/worker-min.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="nuestrosClientes" class="wow fadeInUp">
+        <div class="row my-3">
+            <div class="col-12 ">
+                <h2 class="text-center font-weight-bold" style="color: #17a2b8">Basic Safety Course</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col text-center">
+                        <a href="curso-basico-de-seguridad.html">
+
+                            <img style="width: 400px !important;" src="img/cursos/1.png" class="img-fluid" alt="">
+
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center" id="painter">
+                <h2 class="text-center font-weight-bold" style="color: #17a2b8">Specialized Courses</h2>
+            </div>
+        </div>
+        <div class="row my-5">
+
+            <div class="col-12 ">
+
+                <div class="row">
+
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center m-0 p-0">
+                        <h4 style="color:#eb5b25">Framing</h4>
+                        <a href="cursos-especializado.html#carpentry">
+                            <img style="width: 350px !important;" src="img/cursos/3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center m-0 p-0">
+                        <h4 style="color:#eb5b25">Painter</h4>
+                        <a href="cursos-especializado.html#painter">
+                            <img style="width: 350px !important;" src="img/cursos/4.png" alt="">
+                        </a>
+                    </div>
+
+
+                </div>
+                <div id="electricity"></div>
+                <div class="row">
+                    <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center">
+                        <h4 style="color:#eb5b25">Electricity</h4>
+                        <a href="cursos-especializado.html#electricity">
+                            <img style="width: 350px !important;" src="img/cursos/5.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center">
+                        <h4 style="color:#eb5b25">Roofing</h4>
+                        <a href="cursos-especializado.html#roofing">
+                            <img style="width: 350px !important;" src="img/cursos/6.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center">
+                        <h4 style="color:#eb5b25">Cleaning</h4>
+                        <a href="cursos-especializado.html#cleaning">
+                            <img style="width: 350px !important;" src="img/cursos/2.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <div class="row">
+        <div class="col-12 text-center" id="whyWst">
+            <h2 class="text-center font-weight-bold" style="color: #17a2b8">¿Por qué WST?</h2>
+        </div>
+    </div>
+    <div class="row wow fadeIn slow mt-4 vineta mb-5" id="">
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-4"
+             style="text-align: left;display: flex; justify-content: center; align-items: center">
+            <div>
+
+                <h6 class="text-primary">VENTAJAS DE NUESTRO CURSO BÁSICO DE NORMAS DE SEGURIDAD DE OSHA</h6>
+                <p>PARA LOS TRABAJADORES</p>
+                <ul>
+                    <li>Reciben el curso en sus teléfonos celulares, por tanto, pueden tener acceso al curso en
+                        cualquier
+                        momento
+                        y a cualquier hora.
+                    </li>
+                    <li>Inmediatamente terminado el curso, se crea el certificado con fotografía y lo
+                        reciben y mantienen en sus teléfonos celulares.
+                    </li>
+                    <li>Semanalmente reciben alertas y recordatorios en forma de flyers y videos sobre las normas de
+                        seguridad.
+                    </li>
+                </ul>
+
+                <p>PARA LOS EMPLEADORES</p>
+
+                <ul>
+
+                    <li>WST proveerá en la base de datos de cada cliente: Reporte de todos los trabajadores que han
+                        completado el curso con copia del curso firmado por cada trabajador.
+                    </li>
+                    <li>Copia de cada uno de los certificados,
+                        reporte de las alertas y recordatorios semanales. Este reporte incluye Fecha y hora en que el trabajador
+                        recibió el
+                        recordatorio.
+                    </li>
+                    <li>Copia firmada de la lista de doctores a los que el trabajador puede acudir en caso de
+                        accidente.
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <img class="img-fluid" src="img/cursos/basic1/banner-1-min.png" alt="">
+        </div>
+    </div>
+    <section id="preguntasFrecuentes" class="wow fadeIn">
+        <div class="row" style="">
+            <div class="col">
+                <h2 class="text-center text-info">FAQS</h2>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                    Collapsible Group Item ?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                    Collapsible Group Item ?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                    Collapsible Group Item ?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<div class="row p-0 m-0" id="footerHeading">
+    <div class="col px-0 px-md-3 px-lg-5 px-xl-5 py-0 m-0 text-center">
+        <img class="img-fluid w-50 " src="img/obreros-min.png" alt="">
+
+    </div>
+</div>
+
+<section id="footer">
+    <div class="container wow fadeIn slow pb-5">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-xs- 12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p><a href="#">Work Safety Tech </a>1394 Indian Trail-Lilburn Road, Suite 202,
+                    Norcross, Ga 30093</p>
+                <p><i class="fas fa-envelope"></i> contact@worksafetytech.com</p>
+                <p><i class="fas fa-phone-alt"></i> (770)9637521</p>
+                <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">WST</a></p>
+            </div>
+            <hr>
+        </div>
+    </div>
+</section>
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="xxx" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Curso básico de normas de seguridad de osha para la construccion:</h5>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Como su nombre lo indica, este curso es son un compendio de las normas y regulaciones básicas que
+                    tanto los trabajadores como cualquier persona debe seguir para entrar a un lugar de construcción
+                </p>
+                <h5>Tomemos como ejemplo el equipo de proteccion personal:
+                </h5>
+                <p>Si bien es cierto que los trabajadores deben cumplir estrictamente con reglas como el uso del Equipo
+                    de Protección Personal (Personal Protective Equipment, PPE), estas normas aplican también para todos
+                    cualquier visitante</p>
+                <p>Es común que personas como Arquitectos, ingenieros, inspectores o personas que hacen entrega de
+                    materiales, -entre otros-, visiten los lugares de construcción por espacios reducidos de tiempo.</p>
+                <p>
+                    Todas estas personas deben usar el PPE de forma obligatoria y la persona encargada de la seguridad
+                    en cada trabajo, debe asegurarse que así sea
+                </p>
+                <p> Las obras de construcción se dividen generalmente en tres tipos: Casas, Departamentos y Edificios
+                    Comerciales.
+                </p>
+                <p> Los dueños de estos proyectos de construcción contratan un Contratista General (General Contractor)
+                    para llevarla a cabo
+                </p>
+                <p> A su vez, el contratista general forma un equipo de varios Subcontratistas teniendo en cuenta la
+                    especialidad de cada uno. Por ejemplo, Carpinteros de estructura, instaladores de drywall, pintores,
+                    electricistas, entre muchos otros mas
+                </p>
+                <p> Cada uno de estos subcontratistas, tienen un equipo de trabajadores para levar a cabo la parte que
+                    les corresponde en cada obra.
+                </p>
+                <p> Dependiendo de la especialidad de estos subcontratistas, ellos pueden tener desde dos o tres hasta
+                    cientos de trabajadores en una o varias obras al mismo tiempo
+                </p>
+                <p> En el tema de Seguridad, los constructores generales para otorgar el contrato a los subcontratistas,
+                    siguen normas generales muy comunes en cada lugar de trabajo:
+                </p>
+                <ul>
+                    <li>
+                        Solicitan al subcontratista sus manuales de seguridad por escrito
+                    </li>
+                    <li>Establecen reuniones obligatorias (safety meetings) semanales o quincenales para hablar sobre
+                        las normas de construcción obligatorias de OSHA y hasta imponen multas a las empresas que no
+                        envíen a sus representantes
+                    </li>
+                </ul>
+                <p>Cabe destacar, que a estas reuniones semanales o quincenales generalmente asisten los subcontratistas
+                    o supervisores a cargo en cada lugar de trabajo.</p>
+                <h5>Inconvenientes del comun sistema de seguridad actual:</h5>
+                <ul>
+                    <li>Los trabajadores que realizan el trabajo no asisten a estas reuniones de seguridad.</li>
+                    <li>Si al iniciar el trabajo los trabajadores deben ver un video o escuchar una charla de seguridad,
+                        generalmente no le prestan atención
+                    </li>
+                    <li>Si se les entrega instrucciones de seguridad impresas en folletos o libros, no los llevan
+                        consigo
+                    </li>
+                </ul>
+                <h5>Ventajas de nuestro curso basico denormas de seguridad de osha:</h5>
+                <h6>Para los trabajadores:</h6>
+                <ul>
+                    <li>Reciben el curso en sus TELEFONOS CELULARES, por tanto, pueden tener acceso al curso en
+                        cualquier momento y a cualquier hora
+                    </li>
+                    <li>Inmediatamente terminado el curso, se crea el certificado con fotografía y lo reciben y
+                        mantienen en sus teléfonos celulares
+                    </li>
+                    <li>Semanalmente reciben alertas y recordatorios en forma de flyers y videos sobre las normas de
+                        seguridad
+                    </li>
+                </ul>
+                <h6>Para los empleadores:</h6>
+                <p>WST proveerá en la base de datos de cada cliente:</p>
+                <ul>
+                    <li>Reporte de todos los trabajadores que han completado el curso con copia del curso firmado por
+                        cada trabajador
+                    </li>
+                    <li>Copia de cada uno de los certificados</li>
+                    <li>Reporte de las alertas y recordatorios semanales. Este reporte incluye Fecha y hora en que el
+                        trabajador recibió el recordatorio
+                    </li>
+                    <li>Copia firmada de la lista de doctores a los que el trabajador puede acudir en caso de
+                        accidente
+                    </li>
+                </ul>
+                <p>OSHA requiere que los empleadores deben tener a la vista de los trabajadores la lista de doctores que
+                    provee el seguro de Workers Compensation</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Buy</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="text-center">Company <i class="fas fa-building"></i></h5>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-6 col-md-6 text-center">
+                            <a href="https://worksafetytech.com/login.php?ext=x#swipe-1" class="btn btn-primary">Log
+                                In</a>
+                        </div>
+                        <div class="col-6 col-md-6 text-center">
+                            <a href="https://worksafetytech.com/registerCompany.php" class="btn btn-outline-primary">Sign
+                                Up</a>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="text-center">Worker <i class="fas fa-hard-hat"></i></h5>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3 mb-5">
+                        <div class="col-6 col-md-6 text-center">
+                            <a href="https://worksafetytech.com/login.php?ext=x#swipe-2" class="btn btn-primary">Log
+                                In</a>
+                        </div>
+                        <div class="col-6 col-md-6 text-center">
+                            <a href="https://worksafetytech.com/register.php" class="btn btn-outline-primary">Sign
+                                Up</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--     <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Save changes</button>
+                 </div>-->
+        </div>
+    </div>
+</div>
+
+<script src="library/js/jquery.slim.min.js"></script>
+<script src="library/js/popper.min.js"></script>
+<script src="library/js/bootstrap.min.js"></script>
+<script>
+    let pageHeight = 150;
+
+    $(window).scroll(function () {
+        if ($("#barraNavegacion").offset().top > pageHeight) {
+            console.log(pageHeight);
+
+            $("#barraNavegacion").removeClass("bg-transparent");
+            $("#barraNavegacion").removeClass("navbar-dark");
+
+            $("#barraNavegacion").addClass("colorBarraNavegacion");
+            $("#barraNavegacion").addClass("navbar-dark");
+
+        } else {
+
+            $("#barraNavegacion").addClass("bg-transparent");
+            $("#barraNavegacion").addClass("navbar-dark");
+            $("#barraNavegacion").removeClass("colorBarraNavegacion");
+
+        }
+    });
+    $(function () {
+        // ------------------------------------------------------- //
+        // Multi Level dropdowns
+        // ------------------------------------------------------ //
+        $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            $(this).siblings().toggleClass("show");
+
+
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass("show");
+            });
+
+        });
+    });
+
+
+</script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+</body>
+</html>

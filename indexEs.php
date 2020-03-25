@@ -217,7 +217,7 @@
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="indexEs.php">Español</a>
-                    <a class="dropdown-item" href="index.php">Ingles</a>
+                    <a class="dropdown-item" href="index.html">English</a>
                 </div>
             </div>
 
@@ -263,7 +263,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="indexEs.php">Español</a>
-                                <a class="dropdown-item" href="index.php">Ingles</a>
+                                <a class="dropdown-item" href="index.html">English</a>
                             </div>
                         </div>
                     </li>

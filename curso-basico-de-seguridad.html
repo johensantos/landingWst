@@ -1,0 +1,243 @@
+<!--
+ - Created by PhpStorm.
+ - Developer: Johen Guevara Santos.
+ - Email: mguevara@enfocussoluciones.com
+ - Date: 11/02/2020
+ - Time: 17:03
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/7a2abb6de2.js" crossorigin="anonymous"></script>
+    <title>Work Safety Tech</title>
+    <link rel="stylesheet" href="library/css/bootstrap.min.css">
+    <link rel="stylesheet" href="library/css/animate.min.css">
+    <link rel="stylesheet" href="library/css/footer.css">
+    <link rel="stylesheet" href="library/css/main.css">
+    <script src="library/js/wow.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <style>
+        .iklan {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background: white;
+            width: 200px;
+            padding: 20px;
+        }
+    </style>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="library/css/slider.css">
+    <style>
+        p {
+            text-align: justify;
+        }
+
+        #barraNavegacion {
+            background: url(img/cursos/basic1/fondo2.jpg) no-repeat center center;
+            background-size: cover;
+        }
+        li{
+            list-style: none;
+        }
+        .vineta li:before {
+            content: '\f00c';
+            font-family: 'FontAwesome';
+            float: left;
+            margin-left: -1.5em;
+            color: #0074D9;
+        }
+        p{
+            font-size: 17px !important;
+        }
+
+    </style>
+</head>
+<body class="">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark
+      animated fadeIn fast" id="barraNavegacion"
+         style="transition: all 0.5s ease-in;">
+        <div class="container-fluid">
+            <a class="navbar-brand bg-white d-sm-block d-xl-block d-none" href="index.html"
+               style="border: 10px solid white;">
+                <img class="" style="width: 100px; " src="img/logo_wst.png" alt="">
+
+            </a>
+
+            <a class="navbar-brand d-sm-none d-xl-none d-block" href="#" style="">
+                <img class="" style="width: 130px; " src="img/logo-transparent.png" alt="">
+
+            </a>
+            <!-- <a class="btn text-white botonOcultoNavBar " data-toggle="modal" data-target="#exampleModalCenter"
+                style="border: 1px solid white">
+                 Log In
+             </a>-->
+
+            <a class="btn text-white botonOcultoNavBar "
+               href="https://worksafetytech.com/loginCompany.php"
+               style="border: 1px solid white">
+                Log In
+            </a>
+
+            <div class="dropdown">
+                <a class="btn text-white botonOcultoNavBar dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false" style="border: 1px solid white">
+                    <i class="fas fa-globe-americas"></i>
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="indexEs.php">Español</a>
+                    <a class="dropdown-item" href="index.html">English</a>
+                </div>
+            </div>
+
+
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <style>
+
+                .dropdown-submenu {
+                    position: relative;
+                }
+
+                .dropdown-submenu > a:after {
+                    content: "\f0da";
+                    float: right;
+                    border: none;
+                    font-family: 'FontAwesome';
+                }
+
+                .dropdown-submenu > .dropdown-menu {
+                    top: 0;
+                    left: 100%;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                }
+
+
+                @media (min-width: 991px) {
+                    .dropdown-menu {
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                }
+
+            </style>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav mr-auto itemsMenu ">
+                    <li class="nav-item">
+                        <a style="font-size: 2.0em;padding-left: 1.5rem;padding-right: 1.5rem;color:#eb5b25 !important;"
+                           class="nav-link text-white font-weight-bolder" href="#nuestrosClientes">
+                            Curso Básico - OSHA</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto itemsMenu ">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a style="font-size: 1.1em"
+                               class=" quitarEnMovil dropdown-toggle btn btn-lg mx-2  btn-warning text-white"
+                               data-toggle="dropdown" aria-haspopup="true">
+                                <i class="fas fa-globe-americas"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="indexEs.php">Español</a>
+                                <a class="dropdown-item" href="index.html">English</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <!--<a style="font-size: 1.1em"
+                               class="btn btn-lg  quitarEnMovil  btn-info text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                               data-toggle="modal" data-target="#exampleModalCenter">
+                                Log In
+                            </a>-->
+                            <a style="font-size: 1.1em"
+                               target="_blank"
+                               href="https://worksafetytech.com/loginCompany.php"
+                               class="btn btn-lg  quitarEnMovil  btn-info text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                            >
+                                Log In
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+<main class="container mb-5">
+    <div class="row wow fadeIn slow mt-5">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-4 "
+             style="text-align: left;display: flex; justify-content: center; align-items: center">
+            <div><p>Como su nombre lo indica, este curso es un compendio de las normas y regulaciones básicas que tanto
+                los
+                trabajadores como cualquier persona debe seguir para entrar a un lugar de construcción.</p>
+                <h6 class="text-primary" style="word-spacing: 6px">TOMEMOS COMO EJEMPLO EL EQUIPO DE PROTECCION PERSONAL</h6>
+                <p>Si bien es cierto los trabajadores deben cumplir estrictamente con reglas como el uso del Equipo de
+                    Protección Personal (Personal Protective Equipment, PPE), estas normas aplican también para todos
+                    los
+                    visitantes.
+                    Es común que personas como Arquitectos, ingenieros, inspectores o personas que hacen entrega de
+                    materiales, -entre otros-, visiten los lugares de construcción por espacios reducidos de tiempo.
+                    Todas
+                    estas personas deben usar el PPE de forma obligatoria
+                    y la persona encargada de la seguridad en cada trabajo, debe asegurarse que así sea</p></div>
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <img class="img-fluid" src="img/cursos/basic1/banner-3-min.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="row wow fadeIn slow mt-5">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <img class="img-fluid" src="img/cursos/basic1/banner-2-min.png" alt="">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-4"
+             style="text-align: left;display: flex; justify-content: center; align-items: center">
+
+            <div><p>Las obras de construcción se dividen generalmente en tres tipos: Casas, Departamentos y Edificios
+                Comerciales. Los dueños de estos proyectos de construcción contratan un Contratista General (General
+                Contractor) para llevarla a cabo, a su vez, el contratista general forma un equipo de varios
+                Subcontratistas teniendo en cuenta la especialidad de cada uno. Por ejemplo, Carpinteros de estructura,
+                instaladores de drywall, pintores, electricistas, entre muchos otros más.</p>
+                <p>
+                    Cada uno de estos
+                    subcontratistas, tienen un equipo de trabajadores para llevar a cabo la parte que les corresponde en
+                    cada obra. Dependiendo de la especialidad de estos subcontratistas, ellos pueden tener desde dos o
+                    tres
+                    hasta cientos de trabajadores en una o varias obras al mismo tiempo, en el tema de Seguridad, los
+                    constructores generales para otorgar el contrato a los subcontratistas, siguen normas generales muy
+                    comunes en cada lugar de trabajo.</p></div>
+
+
+        </div>
+    </div>
+
+
+
+</main>
+<div class="iklan">
+    <a href="https://worksafetytech.com/loginCompany.php" class="btn btn-info ">Comprar Aquí</a>
+</div>
+
+<script src="library/js/jquery.slim.min.js"></script>
+<script src="library/js/popper.min.js"></script>
+<script src="library/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

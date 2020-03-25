@@ -1,0 +1,247 @@
+<!--
+ - Created by PhpStorm.
+ - Developer: Johen Guevara Santos.
+ - Email: mguevara@enfocussoluciones.com
+ - Date: 11/02/2020
+ - Time: 17:03
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/7a2abb6de2.js" crossorigin="anonymous"></script>
+    <title>Work Safety Tech</title>
+    <link rel="stylesheet" href="library/css/bootstrap.min.css">
+    <link rel="stylesheet" href="library/css/animate.min.css">
+    <link rel="stylesheet" href="library/css/footer.css">
+    <link rel="stylesheet" href="library/css/main.css">
+    <script src="library/js/wow.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <style>
+        .iklan {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background: white;
+            width: 200px;
+            padding: 20px;
+        }
+    </style>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="library/css/slider.css">
+    <style>
+        p {
+            text-align: justify;
+        }
+
+        #barraNavegacion {
+            background: url(img/cursos/basic1/fondo2.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+        .vineta li {
+            list-style: none;
+        }
+
+        .vineta li:before {
+            content: '\f00c';
+            font-family: 'FontAwesome';
+            float: left;
+            margin-left: -1.5em;
+            color: #0074D9;
+        }
+
+    </style>
+</head>
+<body class="">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark
+      animated fadeIn fast" id="barraNavegacion"
+         style="transition: all 0.5s ease-in;">
+        <div class="container-fluid">
+            <a class="navbar-brand bg-white d-sm-block d-xl-block d-none" href="index.html"
+               style="border: 10px solid white;">
+                <img class="" style="width: 100px; " src="img/logo_wst.png" alt="">
+
+            </a>
+
+            <a class="navbar-brand d-sm-none d-xl-none d-block" href="#" style="">
+                <img class="" style="width: 130px; " src="img/logo-transparent.png" alt="">
+
+            </a>
+            <!-- <a class="btn text-white botonOcultoNavBar " data-toggle="modal" data-target="#exampleModalCenter"
+                style="border: 1px solid white">
+                 Log In
+             </a>-->
+
+            <a class="btn text-white botonOcultoNavBar "
+               href="https://worksafetytech.com/loginCompany.php"
+               style="border: 1px solid white">
+                Log In
+            </a>
+
+            <div class="dropdown">
+                <a class="btn text-white botonOcultoNavBar dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false" style="border: 1px solid white">
+                    <i class="fas fa-globe-americas"></i>
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="indexEs.php">Español</a>
+                    <a class="dropdown-item" href="index.html">English</a>
+                </div>
+            </div>
+
+
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <style>
+
+                .dropdown-submenu {
+                    position: relative;
+                }
+
+                .dropdown-submenu > a:after {
+                    content: "\f0da";
+                    float: right;
+                    border: none;
+                    font-family: 'FontAwesome';
+                }
+
+                .dropdown-submenu > .dropdown-menu {
+                    top: 0;
+                    left: 100%;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                }
+
+
+                @media (min-width: 991px) {
+                    .dropdown-menu {
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                }
+
+            </style>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav mr-auto itemsMenu ">
+                    <li class="nav-item">
+                        <a style="font-size: 1.7em;padding-left: 1.5rem;padding-right: 1.5rem"
+                           class="nav-link text-white font-weight-bold" href="#nuestrosClientes">
+                            Specialized Courses</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto itemsMenu ">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a style="font-size: 1.1em"
+                               class=" quitarEnMovil dropdown-toggle btn btn-lg mx-2  btn-warning text-white"
+                               data-toggle="dropdown" aria-haspopup="true">
+                                <i class="fas fa-globe-americas"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="indexEs.php">Español</a>
+                                <a class="dropdown-item" href="index.html">English</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <!--<a style="font-size: 1.1em"
+                               class="btn btn-lg  quitarEnMovil  btn-info text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                               data-toggle="modal" data-target="#exampleModalCenter">
+                                Log In
+                            </a>-->
+                            <a style="font-size: 1.1em"
+                               target="_blank"
+                               href="https://worksafetytech.com/loginCompany.php"
+                               class="btn btn-lg  quitarEnMovil  btn-info text-white mb-lg-0 mb-xl-0 mb-md-3 mb-sm-3 mb-3"
+                            >
+                                Log In
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+<main class="container mb-5">
+    <div class="row wow fadeIn slow mt-5 mb-5" id="carpentry">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/CARPINTERIA-2-min.png" alt="">
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/CARPINTERIA-!-min.png" alt="">
+
+        </div>
+    </div>
+    <div class="row wow fadeIn slow mt-5 mb-5" id="electricity">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/ELECTRICIDAD-min.png" alt="">
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/ELECTRICIDAD-2-min.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="row wow fadeIn slow mt-5 mb-5" id="painter">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/PINTURA-!-min.png" alt="">
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/PINTURA-2-min.png" alt="">
+
+        </div>
+    </div>
+    <div class="row wow fadeIn slow mt-5 mb-5" id="cleaning">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/LIMPIEZA-2-min.png" alt="">
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/LIMPIEZA-1-min.png" alt="">
+
+
+        </div>
+    </div>
+    <div class="row wow fadeIn slow mt-5 mb-5" id="roofing">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+
+            <img class="img-fluid" src="img/cursos/specialized/ROOFING2-min.png" alt="">
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 mx-0">
+            <img class="img-fluid" src="img/cursos/specialized/ROOFING-min.png" alt="">
+
+        </div>
+    </div>
+
+
+</main>
+<div class="iklan">
+    <a href="https://worksafetytech.com/loginCompany.php" class="btn btn-info ">Comprar Aquí</a>
+</div>
+
+<script src="library/js/jquery.slim.min.js"></script>
+<script src="library/js/popper.min.js"></script>
+<script src="library/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
