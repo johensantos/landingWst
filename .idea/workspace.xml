@@ -2,61 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79e5631-b2d7-42d3-b1a7-6dd797dbccf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/curso-basico-de-seguridad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursos-especializado.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bannerLanding.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/banner-1-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/banner-2-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/banner-3-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/basic1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/fondo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/CARPINTERIA-!-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/CARPINTERIA-2-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/ELECTRICIDAD-2-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/ELECTRICIDAD-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/LIMPIEZA-1-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/LIMPIEZA-2-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/PINTURA-!-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/PINTURA-2-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/ROOFING-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/specialized/ROOFING2-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/frases/iconoFrase1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/frases/iconoFrase2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/frases/iconoFrase3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/iconos/electricidad-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/iconos/limpieza-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/iconos/pintura-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/iconos/roofing-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo-transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/css/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/AminoFont/AminoAlt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/AminoFont/AminoAltBlack.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/AminoFont/AminoAltBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/AminoFont/AminoAltExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/AminoFont/AminoAltLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/AminoFont/AminoAltMedium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/AminoFont/AminoAltThin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/SUNDAYPersonaluse.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/dropify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/merit4.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/fonts/stag/Stag-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/js/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/js/jspdf.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/basicCourse-banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/basic1/fondo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/1.carpinteria-unidas-imagenes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/10.INSTALACION-DE-TECHOS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/2.ELECTRICIDAD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/3.plomeria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/4.aire-acondicionado.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/5.Instalacion-de-Tablaroca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/6.PINTURA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/7.INSTALACION-DE-GABINETES.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/8.Carpinteria-de-interiores.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/9.instalacion-de-pisos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/tarjetaCursosBasicos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/tarjetaCursosEspecializados.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bannerLanding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/worker-min.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/worker-min.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexEs.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexEs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-basico-de-seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/curso-basico-de-seguridad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cursos-especializado.html" beforeDir="false" afterPath="$PROJECT_DIR$/cursos-especializado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/basic1/banner-2-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/basic1/fondo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/CARPINTERIA-!-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/CARPINTERIA-2-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/ELECTRICIDAD-2-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/ELECTRICIDAD-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/LIMPIEZA-1-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/LIMPIEZA-2-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/PINTURA-!-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/PINTURA-2-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/ROOFING-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/specialized/ROOFING2-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +84,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/cursos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/cursos/especializados" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -108,18 +92,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\especializados" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\basic1" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\specialized" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
       <recent name="C:\xampp1\htdocs\landingWst\library\css" />
       <recent name="C:\xampp1\htdocs\landingWst\library\js" />
       <recent name="C:\xampp1\htdocs\landingWst\library" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\specialized" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\basic1" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,7 +152,9 @@
       <workItem from="1584865040022" duration="786000" />
       <workItem from="1585072883076" duration="1339000" />
       <workItem from="1585077990645" duration="130000" />
-      <workItem from="1585148040288" duration="11020000" />
+      <workItem from="1585148040288" duration="12754000" />
+      <workItem from="1585623565077" duration="2051000" />
+      <workItem from="1585670575197" duration="12385000" />
     </task>
     <servers />
   </component>
