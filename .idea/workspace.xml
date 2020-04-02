@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c79e5631-b2d7-42d3-b1a7-6dd797dbccf1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso-basico-de-seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/curso-basico-de-seguridad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cursos-especializado.html" beforeDir="false" afterPath="$PROJECT_DIR$/cursos-especializado.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,18 +59,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
-      <recent name="C:\xampp1\htdocs\landingWst\library\css" />
-      <recent name="C:\xampp1\htdocs\landingWst\library\js" />
-      <recent name="C:\xampp1\htdocs\landingWst\library" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
       <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\especializados" />
       <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\basic1" />
       <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos" />
       <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\specialized" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
+      <recent name="C:\xampp1\htdocs\landingWst\library\css" />
+      <recent name="C:\xampp1\htdocs\landingWst\library\js" />
+      <recent name="C:\xampp1\htdocs\landingWst\library" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,7 +122,8 @@
       <workItem from="1585148040288" duration="12754000" />
       <workItem from="1585623565077" duration="2051000" />
       <workItem from="1585670575197" duration="15021000" />
-      <workItem from="1585700995128" duration="264000" />
+      <workItem from="1585700995128" duration="886000" />
+      <workItem from="1585783958843" duration="2383000" />
     </task>
     <servers />
   </component>
