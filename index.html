@@ -29,9 +29,13 @@
             margin-left: -1.5em;
             color: #0074D9;
         }
+
+
     </style>
 </head>
 <body>
+
+
 <header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top animated fadeIn fast" id="barraNavegacion"
@@ -101,9 +105,10 @@
                     }
                 }
 
-                h4,h2,h5,h6 {
+                h4, h2, h5, h6 {
                     word-spacing: 8px;
                 }
+
                 .card-header button {
                     word-spacing: 6px;
                 }
@@ -185,8 +190,8 @@
                     </li>
                     <li class="nav-item">
                         <a style="font-size: 1.7em;padding-left: 1.5rem;padding-right: 1.5rem"
-                           class="nav-link text-white font-weight-bold" href="#footer">
-                            Contact
+                           class="nav-link text-white font-weight-bold" href="#contactUs">
+                            Contact Us
                         </a>
                     </li>
 
@@ -274,7 +279,7 @@
                 <p class="p-2">The whole basic course takes approximately 30 minutes.</p>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 text-center">
-                <img style="height: 220px" src="img/frases/iconoFrase3.png" alt="">
+                <img style="height: 220px" src="img/frases/iconoFrase3.jpg" alt="">
                 <h5>Reliable</h5>
                 <p class="p-2">
                     Effectively helps to avoid hazards and exposures to avoid job accidents.
@@ -295,11 +300,12 @@
                  </a>-->
                 <div>
                     <h4 class=""
-                        style="color: #eb5b25;font-weight: bold;font-size: 35px;font-family: 'Roboto', sans-serif;">
+                        style="color: #eb5b25;font-weight: bold;font-size: 30px;font-family: 'Roboto', sans-serif;">
                         Workers are the most valuable and important asset of any company
                     </h4>
+                    <br>
                     <h4 class=""
-                        style="color: #eb5b25;font-weight: bold;font-size: 35px;font-family: 'Roboto', sans-serif;">
+                        style="color: #eb5b25;font-weight: bold;font-size: 30px;font-family: 'Roboto', sans-serif;">
                         Protect and keep them safe!
                     </h4>
                 </div>
@@ -560,6 +566,45 @@
         </div>
     </section>
 
+    <section id="contactUs" class="wow fadeIn">
+        <div class="row" style="margin-top: 50px">
+            <div class="col">
+                <h2 class="text-center text-info">Contact Us</h2>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 p-4">
+                <form method="post" action="https://worksafetytech.com/utils/sendContactMessage.php">
+                    <div class="form-group">
+                        <label class="font-weight-bold" for="formGroupExampleInput">Name</label>
+                        <input name="nombre" required type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label class="font-weight-bold" for="email">Email</label>
+                        <input name="email" required type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label class="font-weight-bold" for="message">Message</label>
+                        <textarea name="mensaje" required class="form-control" id="message"
+
+                        ></textarea>
+                    </div>
+                    <input type="hidden" name="submit" value="submit">
+                    <input type="hidden" name="lang" value="en">
+                    <button style="background-color: #eb5b25 !important;" type="submit" class="btn btn-primary btn-lg">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.857423842113!2d-84.16668604243445!3d33.91906889946616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a40ccc8549f5%3A0x4ee649900780c041!2s1394%20Indian%20Trail%20Lilburn%20Rd%20NW%20%23202%2C%20Norcross%2C%20GA%2030093%2C%20EE.%20UU.!5e0!3m2!1ses-419!2spe!4v1586623897434!5m2!1ses-419!2spe"
+                        frameborder="0" style="border:0;min-height: 300px;width: 100%" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
 </div>
 
 <!-- Footer -->
@@ -567,6 +612,131 @@
     <div class="col px-0 px-md-3 px-lg-5 px-xl-5 py-0 m-0 text-center">
         <img class="img-fluid w-50 " src="img/obreros-min.png" alt="">
 
+    </div>
+</div>
+
+<!-- modal de politicas de privacidad -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Privacy Statement</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-justify">
+                <p>WST has created this privacy statement ("Statement") in order to demonstrate our commitment to
+                    customer privacy. Privacy on Work Safety Tech (WST) web site (the "Site") is of great importance to
+                    us. Because we gather important information from our visitors and customers, we have established
+                    this Statement as a means to communicate our information gathering and dissemination practices. We
+                    reserve the right to change this Statement and will provide notification of the change at least
+                    thirty (30) business days prior to the change taking effect.</p>
+                <h6>Collected Information</h6>
+                <p>We require customers who register to use the services ("Services") offered on our Site to give us
+                    contact information, such as their name, company name, address, phone number, and e-mail address,
+                    and financial qualification and billing information, such as billing name and address, credit card
+                    number, and the number of users within the organization that will be using the Services. At the time
+                    you express interest in attaining additional information, or when you register for the service, we
+                    may also ask for additional personal information, such as title, department name, fax number, or
+                    additional company information, such as annual revenues, number of employees, or industry. Customers
+                    can opt out of providing this additional information by not entering it when asked. Customers can
+                    update or remove their personal information at any time by logging into the Website and editing
+                    their Personal Information within Setup. Customers can view their updated profile to confirm their
+                    edits have been made.
+                </p>
+                <p>
+                    All financial and billing information that we collect through the Site is used solely to bill for
+                    Services. This billing information is not used by WST for marketing or promotional purposes. WST
+                    uses a third-party intermediary to manage the credit card processing. This intermediary is solely a
+                    link in the distribution chain, and is not permitted to store, retain, or use the information
+                    provided, except for the sole purpose of credit card processing. Other third parties, such as
+                    content providers, may provide content on the web Site but they are not permitted to collect any
+                    information nor does WST share any user information with these parties.</p>
+                <p>WST may also collect certain information from visitors to and customers of the Site, such as Internet
+                    addresses.</p>
+                <h6>Cookies</h6>
+                <p>When you interact with the WST Website we strive to make that experience easy and meaningful. When
+                    you come to our Web site, our Web server sends a cookie to your computer. Cookies are files that Web
+                    browsers place on a computer's hard drive and are used to tell us whether customers and visitors
+                    have visited the Site previously.</p>
+                <p>Standing alone, cookies do not identify you personally. They merely recognize your browser. Unless
+                    you choose to identify yourself to WST, either by responding to a promotional offer, opening an
+                    account, you remain anonymous to WST. Cookies come in two flavors: session and persistent-based.
+                    Session cookies exist only during an online session. They disappear from your computer when you
+                    close your browser software or turn off your computer. Persistent cookies remain on your computer
+                    after you've closed your browser or turned off your computer. They include such information as a
+                    unique identifier for your browser.</p>
+                <p>WST uses session cookies containing encrypted information to allow the system to uniquely identify
+                    you while you are logged in. This information allows WST to process your online transactions and
+                    requests. Session cookies help us make sure you are who you say you are after you've logged in and
+                    are required in order to use the WST application. WST uses persistent cookies that only WST can read
+                    and use, to identify the fact that you are an WST customer or prior WST Website visitor (whatever
+                    the case may be). We are especially careful about the security and confidentiality of the
+                    information stored in persistent cookies. For example, we do not store account numbers or passwords
+                    in persistent cookies. Users who disable their Web browsers' ability to accept cookies will be able
+                    to browse our Website but will not be able to successfully use our service.</p>
+                <h6>Third-Party Sites</h6>
+                <p>The Site contains links to other web sites. WST is not responsible for the privacy practices or the
+                    content of these other web sites. Customers and visitors will need to check the policy statement of
+                    these others web sites to understand their policies. Customers and visitors who access a linked site
+                    may be disclosing their private information. It is the responsibility of the user to keep such
+                    information private and confidential.</p>
+                <h6>Security</h6>
+                <p>Our Site has security measures in place to help protect against the loss, misuse, and alteration of
+                    the Data under our control. When our Site is accessed using Netscape Navigator, or Microsoft
+                    Internet Explorer versions 11 or higher, Transport Layer Security (TLS) technology protects
+                    information using both server authentication and data encryption to help ensure that Data is safe,
+                    secure, and available only to you. WST also implements an advanced security method based on dynamic
+                    data and encoded session identifications, and hosts the Site in a secure server environment that
+                    uses a firewall and other advanced technology to prevent interference or access from outside
+                    intruders. Finally, WST provides unique user names and passwords that must be entered each time a
+                    customer logs on. These safeguards help prevent unauthorized access, maintain data accuracy, and
+                    ensure the appropriate use of Data.</p>
+                <h6>Opt-Out Policy</h6>
+                <p>WST offers its visitors and customers a means to choose how we may use information provided. If, at
+                    any time after registering for information or ordering Services, you change your mind about
+                    receiving information from us or about sharing your information with third parties, send us a
+                    request specifying your new choice. Simply send your request to support@worksafetytech.com.</p>
+                <h6>Work Safety Tech Security Statement</h6>
+                <p>WST utilizes some of the most advanced technology for Internet security available today. When you
+                    access our site using Microsoft Internet Explorer versions 11 or higher, Transport Layer Security
+                    (TLS) technology protects your information using both server authentication and data encryption,
+                    ensuring that your data is safe, secure, and available only to registered Users in your
+                    organization. Your data will be completely inaccessible to your competitors.</p>
+
+                <h6>Correcting & Updating Your Information</h6>
+                <p>Correcting & Updating Your Information: If customers need to update or change registration
+                    information they may so by editing the user or organization record. To update a User Profile, log on
+                    to WST and select My Account to add or update information. To update Organization's data, log on to
+                    WST and select Organization Setup.</p>
+                <h6>
+                    Additional Information
+                </h6>
+                <p>
+                    Questions regarding this Statement or the practices of this Site should be directed to WST' Security
+                    Administrator by e-mailing such questions to support@worksafetytech.com</p>
+                <p>In addition, WST is hosted in a secure server environment that uses a firewall and other advanced technology to prevent interference or access from outside intruders.</p>
+
+
+                <h6>Contact us:</h6>
+                <p>Work Safety Tech, LLC</p>
+                <p>1394 Indian Trail-Lilburn Rd</p>
+                <p>Suite 202</p>
+                <p>Norcross, GA 30093</p>
+                <p>support@worksafetytech.com</p>
+                <div class="row">
+                    <div class="col text-center">
+                        <p><strong>Work Safety Tech, LLC Copyright © 2020 All rights reserved.</strong></p>
+                        <p><strong>1394 Indian Trail Rd., Suite 202 Norcross, GA 30093 United States</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -588,14 +758,15 @@
                 <p>Work Safety Tech LLC, 1394 Indian Trail-Lilburn Road, Suite 202, Norcross, Ga 30093</p>
                 <p><i class="fas fa-envelope"></i> contact@worksafetytech.com</p>
                 <p><i class="fas fa-phone-alt"></i> (770) 963-7521</p>
-                <p class="h6">&copy All rights reserved WST.
-                </p>
+                <p class="h6">&copy All rights reserved WST | <a href="#" data-toggle="modal"
+                                                                 data-target="#exampleModalLong">Privacy
+                    Policy</a></p>
             </div>
             <hr>
         </div>
     </div>
 </section>
-<!-- Button trigger modal -->
+
 
 <script src="library/js/jquery.slim.min.js"></script>
 <script src="library/js/popper.min.js"></script>
@@ -642,7 +813,19 @@
         });
     });
 
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
 
+    $(document).ready(function () {
+        let id = getParameterByName('id');
+        if (id == 'success') {
+            alert("Message sent correctly");
+        }
+    });
 </script>
 
 </body>

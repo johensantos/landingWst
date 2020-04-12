@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79e5631-b2d7-42d3-b1a7-6dd797dbccf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/11.limpieza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/IMAGEN-CURSO-POR-ESPECIALIDAD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/frases/iconoFrase2Es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/1.carpinteria-unidas-imagenesEng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cursos/especializados/jardineriaLanding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/frases/iconoFrase3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-basico-de-seguridad.html" beforeDir="false" afterPath="$PROJECT_DIR$/curso-basico-de-seguridad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-basico-de-seguridadEs.html" beforeDir="false" afterPath="$PROJECT_DIR$/curso-basico-de-seguridadEs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cursos-especializado.html" beforeDir="false" afterPath="$PROJECT_DIR$/cursos-especializado.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cursos-especializadoEs.html" beforeDir="false" afterPath="$PROJECT_DIR$/cursos-especializadoEs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cursos/especializados/1.carpinteria-unidas-imagenes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cursos/especializados/1.carpinteria-unidas-imagenes.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/especializados/11.limpieza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cursos/especializados/11.limpieza.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cursos/tarjetaCursosEspecializados.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/cursos/tarjetaCursosEspecializados.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/cursos/tarjetaCursosEspecializadosEng.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/cursos/tarjetaCursosEspecializadosEng.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase2Es.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/frases/iconoFrase2Es.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/frases/iconoFrase3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexEs.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexEs.html" afterDir="false" />
     </list>
@@ -59,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/frases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/cursos/especializados" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -67,18 +67,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\especializados" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst" />
+      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\basic1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
       <recent name="C:\xampp1\htdocs\landingWst\library\css" />
       <recent name="C:\xampp1\htdocs\landingWst\library\js" />
       <recent name="C:\xampp1\htdocs\landingWst\library" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\frases" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\especializados" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst" />
-      <recent name="G:\software\XAMPP\htdocs\landingWst\img\cursos\basic1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,7 +144,18 @@
       <workItem from="1586154684501" duration="82000" />
       <workItem from="1586205972664" duration="7452000" />
       <workItem from="1586241553217" duration="1885000" />
-      <workItem from="1586274475877" duration="5167000" />
+      <workItem from="1586274475877" duration="5767000" />
+      <workItem from="1586296060889" duration="1952000" />
+      <workItem from="1586381540214" duration="2176000" />
+      <workItem from="1586390636877" duration="855000" />
+      <workItem from="1586466968773" duration="599000" />
+      <workItem from="1586557425783" duration="3452000" />
+      <workItem from="1586566630072" duration="11000" />
+      <workItem from="1586567665552" duration="33000" />
+      <workItem from="1586619669074" duration="6515000" />
+      <workItem from="1586632934644" duration="3355000" />
+      <workItem from="1586644244885" duration="3022000" />
+      <workItem from="1586725783848" duration="1415000" />
     </task>
     <servers />
   </component>
